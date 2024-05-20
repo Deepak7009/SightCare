@@ -20,7 +20,7 @@ button {
 
 .text-primary-dark {
     --tw-text-opacity: 1;
-    color: hsl(353 39% 20%)
+    color: rgb(8 84 132)
 }
 
 :root {
@@ -185,12 +185,12 @@ img {
 
 .before\:bg-primary\/20::before {
     content: var(--tw-content);
-    background-color: hsl(353 78% 35% / .2)
+    background-color: rgb(8 84 132 / .25);
 }
 
 .before\:bg-primary\/25::before {
     content: var(--tw-content);
-    background-color: hsl(353 78% 35% / .25)
+    background-color: rgb(8 84 132 / .25);
 }
 
 .after\:h-0\.5::after {
@@ -205,12 +205,12 @@ img {
 
 .after\:bg-primary\/20::after {
     content: var(--tw-content);
-    background-color: hsl(353 78% 35% / .2)
+    background-color: rgb(8 84 132 / .25);
 }
 
 .after\:bg-primary\/25::after {
     content: var(--tw-content);
-    background-color: hsl(353 78% 35% / .25)
+    background-color: rgb(8 84 132 / .25);
 }
 
 .empty\:hidden:empty {
