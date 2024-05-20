@@ -5,68 +5,65 @@ function Benefits() {
     <div>
       <div className="tab-content-item mt-3 ml-4 mb-8 mr-4 active">
         <h2 className="tab__title text-4xl font-bold text-primary text-customBgColorHSL">
-          What Benefits Can FitSpresso Give Me?
+          What Benefits Can SightCare Give Me?
         </h2>
         <div className="tab__line h-0.5 w-20 bg-orange-400 my-3"></div>
         <div className="tab__body ">
           <div className="text-center">
             <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
-              Supports Healthy Blood Sugar
+              Supports Eye Health
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
             <p className="text-base font-medium">
-              FitSpresso uses an proprietary blend of exclusive ingredients to
-              support healthy blood sugar levels
+              SightCare uses a special blend of ingredients to support healthy
+              eyes
             </p>
           </div>
           <div className="text-center">
             <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
-              Supports Healthy Energy Usage
+              Maintains Healthy Eyes
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
             <p className="text-base font-medium">
-              FitSpresso supports metabolism of food into energy, rather than
-              storing fat
+              SightCare helps support the health of your eyes, to support it
+              well into old age
             </p>
           </div>
           <div className="text-center">
             <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
-              Increases Energy Levels
+              Enhances Visual Acuity
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
             <p className="text-base font-medium">
-              FitSpresso supports healthy glucose metabolism to increase your
-              energy levels
+              SightCare supports the ability to view fine detail
             </p>
           </div>
           <div className="text-center">
             <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
-              Supports Fat Burning
+              Supports Lens Clarity
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
             <p className="text-base font-medium">
-              FitSpresso is a blend of powerful ingredients that turn fat into
-              energy
+              SightCare helps support eye health and prevention of glaucoma
             </p>
           </div>
           <div className="text-center">
             <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
-              Supports Healthy Digestion
+              Supports Visual Focus
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
             <p className="text-base font-medium">
-              FitSpresso unique formula helps support healthy digestion and
-              helps reduce bloating
+              SightCare supports the lens, retina and macula of the eye
             </p>
           </div>
           <div className="text-center">
             <h4 className="mt-8 text-xl font-bold text-primary text-customBgColorHSL">
-              Support Healthy Weight
+              Combats Dry Eyes
             </h4>
             <div className="h-1 w-24 bg-orange-400 my-3 mx-auto"></div>
             <p className="text-base font-medium">
-              FitSpresso’s unique formula supports digestion and maintenance of
-              healthy body weight
+              SightCare’s unique formula supports circulation and blood flow to
+              combat dry eyes
             </p>
           </div>
         </div>
