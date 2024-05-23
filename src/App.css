@@ -1,141 +1,3 @@
-body {
-    font-family: Roboto, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin: 0;
-}
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem
-}
-
-.product-info {
-    background: linear-gradient(180deg, hsl(316, 39%, 33%) 0%, #fff 100%);
-}
-
-.text-primary {
-    --tw-text-opacity: 1;
-    color: hsl(316 39% 33% / var(--tw-text-opacity));
-}
-
-.main-title {
-    font-size: 23px;
-    line-height: 1.1;
-}
-.offer-card__cta {
-    background: linear-gradient(180deg, #d20000 0, #ea0000 100%);
-    border: 1px solid #af0000;
-}
-.main-title-wrapper-bg {
-    background: linear-gradient(var(--color-primary) 40%, #fff 40%);
-}
-
-.solution {
-    container-type: inline-size;
-    container-name: solution;
-}
-.offer-card {
-    max-width: 290px;
-    min-width: 190px;
-    flex: 1 1 29%;
-}
-.offer-card__body {
-    background: linear-gradient(#fff 40%, hsl(316, 39%, 33%, .2));
-}
-.featured .offer-card__title {
-    background: var(--color-primary-dark);
-}
-.featured .product_card_body {
-    background: linear-gradient(180deg,#fffabe,#fff)
-}
-.bg-primary {
-    --tw-bg-opacity: 1;
-    background-color: hsl(316 39% 33% / var(--tw-bg-opacity));
-}
-.featured .offer-card__body {
-    background: linear-gradient(#fff, #f8ffcd);
-}
-:root {
-    --color-primary: hsl(316, 39%, 33%);
-    --color-primary-dark: hsl(316, 39%, 25%);
-}
-
-.offer-card.featured>.offer-card__title:before {
-    background: url("https://tryfitspresso.org/l/lib/img/media/bs_badge-small.webp") 50% / cover no-repeat;
-}
-
-.offer-card.featured>.offer-card__title::before {
-    content: "";
-    display: block;
-    width: 53px;
-    height: 58px;
-    background: url("https://tryfitspresso.org/l/lib/img/media/bs_badge-small.webp") 50% / cover no-repeat;
-    position: absolute;
-    top: -3px;
-    left: -2px;
-    z-index: 1;
-}
-.fill-primary\/40 {
-    fill: hsl(316 39% 33% / .4);
-}
-.shadow-md {
-    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.product__button {
-    background-color: #ffe400;
-    background: linear-gradient(1turn,#ffb301,#ffde00);
-    font-size: clamp(29px,7.2vw,33px)
-}
-
-@media (min-width: 768px) {
-    .product__button {
-        font-size:clamp(25px,3vw,35px)
-    }
-    .main-title-wrapper-bg {
-        background: #fcf2cc;
-    }
-    img.product__img {
-        height:20vw;
-        max-height: 220px
-    }
-    .container {
-        padding-left:2.5rem;
-        padding-right: 2.5rem
-    }
-}
-
-@media (min-width: 1024px) {
-    .product__button {
-        font-size:36px
-    }
-}
-
-
-.pr__icon {
-    border: 1px solid #fce35d;
-    background-color: #ffe400;
-    background: linear-gradient(180deg,#ffb301,#ffde00)
-}
-
-.section__products {
-    background: #eee
-}
-
-.product_card_body {
-    border-width: 5px
-}
-
-img.product__img {
-    max-height: 260px
-}
-
-
 button {
     font-family: inherit;
     font-feature-settings: inherit;
@@ -146,18 +8,169 @@ button {
     color: inherit;
     margin: 0;
     padding: 0;
-    text-transform: none
+    text-transform: none;
+    background-color: transparent;
+    background-image: none
+}
+
+.text-primary {
+    --tw-text-opacity: 1;
+    color: rgb(8 84 132) !important 
+}
+
+.text-primary-dark {
+    --tw-text-opacity: 1;
+    color: hsl(353 39% 20%)
+}
+
+:root {
+    --color-primary: #085484;
+    --color-primary-dark: hsl(203, 39%, 23%) !important;
+    --color-accent: #c74349;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+img,
+svg {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem
 }
 
 @media (min-width: 640px) {
     .container {
-        padding-left:2rem;
+        padding-left: 2rem;
         padding-right: 2rem
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem
     }
 }
 
 .container {
     max-width: 1080px
+}
+
+.product-info {
+    background: linear-gradient(180deg, hsl(353, 39%, 33%) 0%, hsl(0, 0%, 100%) 100%);
+}
+
+
+.main-title {
+    font-size: 23px;
+    line-height: 1.1;
+}
+
+.main-title-wrapper-bg {
+    background: linear-gradient(hsl(353, 39%, 33%) 30%, #fff 30%)
+}
+
+@media (min-width: 480px) {
+    .main-title-wrapper-bg {
+        background: linear-gradient(hsl(353, 39%, 33%) 35%, #fff 35%)
+    }
+}
+
+@media (min-width: 640px) {
+    .main-title-wrapper-bg {
+        background: linear-gradient(hsl(353, 39%, 33%) 40%, #fff 40%)
+    }
+}
+
+@media (min-width: 768px) {
+    .main-title-wrapper-bg {
+        background: #fcf2cc
+    }
+}
+
+.solution {
+    container-type: inline-size;
+    container-name: solution
+}
+
+.solution__list li {
+    text-align: center;
+    font-weight: 700;
+    color: hsl(353, 39%, 33%);
+    padding-bottom: 10px
+}
+
+.offer-card__body {
+    background: linear-gradient(#fff 40%, hsl(316, 39%, 33%, .2))
+}
+
+.offer-card {
+    max-width: 290px;
+    min-width: 190px;
+    flex: 1 1 29%
+}
+
+.featured .offer-card__body {
+    background: linear-gradient(#fff, #f8ffcd)
+}
+
+.featured .offer-card__title {
+    background: var(--color-primary-dark) !important
+}
+
+.offer-card.featured>.offer-card__title::before {
+    content: "";
+    display: block;
+    width: 53px;
+    height: 58px;
+    background: url("https://tryfitspresso.org/l/lib/img/media/bs_badge-small.webp") 50%/cover no-repeat;
+    position: absolute;
+    top: -3px;
+    left: -2px;
+    z-index: 1
+}
+.fill-primary-light {
+    fill: rgb(8, 84, 132) 
+}
+
+.offer-card__cta {
+    background: linear-gradient(180deg, #d20000 0, #ea0000 100%);
+    border: 1px solid #af0000
+}
+
+.bg-primary {
+    --tw-bg-opacity: 1;
+    background-color: rgb(8, 84, 132) !important
+}
+
+.bg-primary\/20 {
+    background-color: rgb(8, 84, 132, .2) 
+}
+
+.fill-primary\/40{
+    fill: rgb(8, 84, 132, .4);
+
+}
+
+.shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .before\:h-0\.5::before {
@@ -172,12 +185,12 @@ button {
 
 .before\:bg-primary\/20::before {
     content: var(--tw-content);
-    background-color: hsl(316 39% 33% / .2)
+    background-color: hsl(353 78% 35% / .2)
 }
 
 .before\:bg-primary\/25::before {
     content: var(--tw-content);
-    background-color: hsl(316 39% 33% / .25)
+    background-color: hsl(353 78% 35% / .25)
 }
 
 .after\:h-0\.5::after {
@@ -192,15 +205,18 @@ button {
 
 .after\:bg-primary\/20::after {
     content: var(--tw-content);
-    background-color: hsl(316 39% 33% / .2)
+    background-color: hsl(353 78% 35% / .2)
 }
 
 .after\:bg-primary\/25::after {
     content: var(--tw-content);
-    background-color: hsl(316 39% 33% / .25)
+    background-color: hsl(353 78% 35% / .25)
 }
 
 .empty\:hidden:empty {
     display: none
 }
 
+.section__products button {
+    pointer-events: none
+}
