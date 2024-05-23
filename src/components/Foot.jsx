@@ -14,7 +14,7 @@ function Foot() {
                                 <li><a href="https://getfitspresso.com/info/contact-cb" rel="noopener" target="_blank">Contact</a></li>
                             </ul>
                             <div className="flex flex-col justify-center items-center md:flex-row gap-3 bg-[#eaeaea] rounded-2xl py-2 px-4 mt-8 mb-5">
-                                <img alt="Clickbank Logo" loading="lazy" src="https://tryfitspresso.org/l/lib/img/media/logo-cb.svg" width="212" height="28" />
+                                <img alt="Clickbank Logo" loading="lazy" src="https://getsightcarefast.org/l/lib/img/media/logo-buygoods.svg" width="212" height="28" />
                                 <p>ClickBank is the retailer of this product. CLICKBANK® is a registered trademark of Click Sales, Inc., a Delaware corporation located at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, USA and used by permission. ClickBank's role as retailer does not constitute an endorsement, approval or review of this product or any claim, statement or opinion used in promotion of this product.</p>
                             </div>
                             <div className="footer__disc text-center">

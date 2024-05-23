@@ -7,19 +7,19 @@ function Section3() {
                 <div className="container px-4">
                     <h2 className="reviews__title font-black text-center text-primary">Real FitSpresso<small><sup>®</sup></small> Users</h2>
                     <div className="flex justify-center">
-                        <p className="mt-4 i-b rounded-2xl bg-primary text-white px-16 py-4 text-5xl text-center">Life Changing Results</p>
+                        <p className="mt-4 i-b rounded-2xl bg-primary text-white px-16 py-4 text-5xl text-center font-bold">Life Changing Results</p>
                     </div>
                     <div className="flex justify-center my-8">
                         <picture>
                             <source media="(max-width: 768px)" srcSet="https://tryfitspresso.org/l/lib/img/media/user-photosm1.webp" width="658" />
-                            <img src="https://tryfitspresso.org/l/lib/img/media/user-photos1.webp" width="690" height="266" alt="User Photos" loading="lazy" className="mx-auto max-h-[500px] w-auto" />
+                            <img src="https://getsightcarefast.org/l/lib/img/media/user-photos1.webp" width="690" height="266" alt="User Photos" loading="lazy" className="mx-auto max-h-[500px] w-auto" />
                         </picture>
                     </div>
                     <div className="mx-auto reviews-list max-w-3xl">
                         <div className="border-b-4 py-6 sm:py-10 px-2 sm:px-6 md:px-12 border-primary-dark/10 last:border-none">
                             <div className="flex items-center gap-2">
                                 <div className="w-12 h-12 flex-none">
-                                    <img className="object-cover w-full h-full rounded-xl" loading="lazy" src="https://tryfitspresso.org/l/lib/img/media/review1.webp" alt="Shannon Curry - Denver, Colorado" />
+                                    <img className="object-cover w-full h-full rounded-xl" loading="lazy" src="https://getsightcarefast.org/l/lib/img/media/review1.webp" alt="Shannon Curry - Denver, Colorado" />
                                 </div>
                                 <div className="flex items-center flex-wrap gap-1">
                                     <div className="review__stars flex">
@@ -42,12 +42,12 @@ function Section3() {
                                 </div>
                             </div>
                             <p className="text-base lg:text-lg font-light italic my-4">This is literally the simplest thing you can do for your health and your metabolism. I lost 34lbs. I have more energy than I’ve ever had in my life. And it’s literally just from making this change. I really do feel great.</p>
-                            <div className="div"><b>Shannon Curry - Denver, Colorado</b> - Denver, Colorado</div>
+                            <div className="div"><b>John B. Thomas </b> - Fort Gibson, OK</div>
                         </div>
                         <div className="border-b-4 py-6 sm:py-10 px-2 sm:px-6 md:px-12 border-primary-dark/10 last:border-none">
                             <div className="flex items-center gap-2">
                                 <div className="w-12 h-12 flex-none">
-                                    <img className="object-cover w-full h-full rounded-xl" loading="lazy" src="https://tryfitspresso.org/l/lib/img/media/review2.webp" alt="Donna Angelman" />
+                                    <img className="object-cover w-full h-full rounded-xl" loading="lazy" src="	https://getsightcarefast.org/l/lib/img/media/review2.webp" alt="Donna Angelman" />
                                 </div>
                                 <div className="flex items-center flex-wrap gap-1">
                                     <div className="review__stars flex">
@@ -67,12 +67,12 @@ function Section3() {
                                 </div>
                             </div>
                             <p className="text-base lg:text-lg font-light italic my-4">Wow! Who would have thought this simple technique would help me lose so much weight and so easily. I can't thank you enough</p>
-                            <div className="div"><b>Donna Angelman</b> - Buffalo, New York</div>
+                            <div className="div"><b>Marla Holloway </b> - Lubbock, TX</div>
                         </div>
                         <div className="border-b-4 py-6 sm:py-10 px-2 sm:px-6 md:px-12 border-primary-dark/10 last:border-none">
                             <div className="flex items-center gap-2">
                                 <div className="w-12 h-12 flex-none">
-                                    <img className="object-cover w-full h-full rounded-xl" loading="lazy" src="https://tryfitspresso.org/l/lib/img/media/review2.webp" alt="Roberta S" />
+                                    <img className="object-cover w-full h-full rounded-xl" loading="lazy" src="https://getsightcarefast.org/l/lib/img/media/review3.webp" alt="Roberta S" />
                                 </div>
                                 <div className="flex items-center flex-wrap gap-1">
                                     <div className="review__stars flex">
@@ -92,14 +92,14 @@ function Section3() {
                                 </div>
                             </div>
                             <p className="text-base lg:text-lg font-light italic my-4">I'm just writing to tell you how grateful I am for finding you. I've shared this secret with all my friends that struggled with weight. Thank you!</p>
-                            <div className="div"><b>Roberta S</b> - Fort Lauderdale, Florida</div>
+                            <div className="div"><b>Greg Stevenson</b> - Altoona, PA</div>
                         </div>
                     </div>
                     <div className="flex justify-center my-8">
                         <picture>
                             <source media="(max-width: 768px)" srcSet="https://tryfitspresso.org/l/lib/img/media/user-photosm2.webp" width="658" />
                             <source media="(max-width: 768px)" srcSet="lib/img/media/user-photosm2.webp" width="658" />
-                            <img src="https://tryfitspresso.org/l/lib/img/media/user-photos2.webp" width="667" height="772" alt="User Photos" loading="lazy" className="mx-auto max-h-[500px] w-auto" />
+                            <img src="https://getsightcarefast.org/l/lib/img/media/user-photos2.webp" width="667" height="772" alt="User Photos" loading="lazy" className="mx-auto max-h-[500px] w-auto" />
                         </picture>
                     </div>
                 </div>
