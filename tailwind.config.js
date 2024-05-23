@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        customBgColorHSL: "hsl(316, 39%, 25%)", 
+        customBgColorHSL: "rgb(8 84 132)", 
         customBgColorHex: "#fcf2cc", 
         customBgColor: "#fffae6",
       },

@@ -51,7 +51,7 @@ function Guarantee() {
                   </b>
                   - 100% every penny, no questions asked,
                   <b>you can even keep the bottles</b> as our “thanks” for
-                  giving FitSpresso a try.
+                  giving SightCare a try.
                 </p>
               </li>
               <li className="flex mt-8">
@@ -59,7 +59,7 @@ function Guarantee() {
                   <span>2</span>
                 </div>
                 <p className="text-customBgColorHSL">
-                  Doctor Guarantee - Use Fitspresso every day for 6 full months
+                  Doctor Guarantee - Use SightCare every day for 6 full months
                   &amp; if your doctor isn’t shocked with your progress, we’ll
                   not only refund your money, we’ll also BUY you a competitor’s
                   product of your choice! (6 bottle purchases only)
